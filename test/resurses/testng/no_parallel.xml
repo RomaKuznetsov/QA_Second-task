@@ -1,0 +1,12 @@
+<suite name="Parallel suite" parallel="tests" thread-count = "8" >
+    <test name="TestOne">
+        <classes>
+            <class name="example.Link_aExample"/>
+        </classes>
+    </test>
+    <test name="TestTwo">
+        <classes>
+            <class name="example.LinkExample"/>
+        </classes>
+    </test>
+</suite>
